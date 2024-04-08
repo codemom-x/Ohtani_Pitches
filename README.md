@@ -22,6 +22,6 @@ This project is a web application that visualizes Shohei Ohtani's pitching data 
 -Chart.js: COnfigures and initializes the scatter plot, including defining data sets, colors, and axis configurations.
 ## Usage
 1. Clone the repository to your local machine.
-2. Open index.html in a web browser (I used Chroms to test)
+2. Open index.html in a web browser (I used Chrome to test)
 3. View the scatter plot visualization of Ohtanis pitching data.
 4. ![Screenshot (6)](https://github.com/codemom-x/Ohtani_Pitches/assets/136468471/6f8a7f41-dfd5-4fee-b0cd-e7f7b4fd3e09)
