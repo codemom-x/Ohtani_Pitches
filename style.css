@@ -1,0 +1,34 @@
+ body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+canvas {
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+
+.canvas-container {
+    position: relative; 
+}
+
+.axis-labels {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 20px);
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+}
+
+.y-axis-label {
+    transform: translateX(-50%);
+}
+
+.x-axis-label {
+    transform: translateY(-50%) rotate(-90deg);
+}
