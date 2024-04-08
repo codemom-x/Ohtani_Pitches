@@ -8,18 +8,20 @@ This project is a web application that visualizes Shohei Ohtani's pitching data 
 -Chart.js: A Javascript library for creating responsive and customizable charts.
 -Fetch API: Used to make asynchonous HTTP requests to load the pitch data.
 
-###Application Overview
--Loads and process pitch data from a JSON file('Ohtani_Pitsches_2022-2023.json')
--Groups the pitch data by pitch type and eent type using a custom grouping function ('groupBy.js')
+### Application Overview
+
+## Features
+-Loads and processes pitch data from a JSON file('Ohtani_Pitsches_2022-2023.json')
+-Groups the pitch data by pitch type and event type using a custom grouping function ('groupBy.js')
 -Displays the grouped data as a scatter plot where each point represents a pitch velocity and spin rate.
 -Customizes the appearance of the scatter plot using Chart.js configuration options.
--Includes axis labels to provide context for the data
+-Includes axis labels (Velocity (mph) & Spin Rate(rpm))to provide context for the data
 
 ## Implementation Details
 -HTML: defines the structure of the web pages and includes necessary elements like canvas for scatter plot and placeholders for labels.
 -CSS: Stles the html elemeents to enhance the visual presentation
 -Javascript: Contains a custom function to group pitch data based on specified keys (i.e pitch type and event type). Uses 'fetch API to load pitch data, processes the data using 'groupBy, and renders the scatter plot using Chart.js.
--Chart.js: COnfigures and initializes the scatter plot, including defining data sets, colors, and axis configurations.
+-Chart.js: Configures and initializes the scatter plot, including defining data sets, colors, and axis configurations.
 ## Usage
 1. Clone the repository to your local machine.
 2. Open index.html in a web browser (I used Chrome to test)
